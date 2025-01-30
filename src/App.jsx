@@ -17,7 +17,7 @@ const change = e => {
 
 
 const handleClick = () => {
-
+  setComponents([])
   for (let i = 1; i <= val; i++){
     setComponents(components => [...components,
       <div key={i}>
